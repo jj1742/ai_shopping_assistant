@@ -24,7 +24,6 @@ def pick_color(img):
 
     return (round(S_red / n), round(S_green / n), round(S_blue / n))
 
-
 def upload_models():
     face1 = "model_files\\opencv_face_detector.pbtxt"
     face2 = "model_files\\opencv_face_detector_uint8.pb"
@@ -38,15 +37,15 @@ def upload_models():
     age = cv2.dnn.readNet(age2, age1)
 
     gen = cv2.dnn.readNet(gen2, gen1)
-
-    print("models_ulpoaded")
-
+    
+    print('models_ulpoaded')
+    
     return face, age, gen
 
 
 def analize(filename_: str, face, age, gen):
     res = []
-
+    
     MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
 
     la = [(0, 2), (4, 6), (8, 12), (15, 20), (25, 32), (38, 43), (48, 53), (60, 100)]
