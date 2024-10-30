@@ -1,3 +1,6 @@
+import sys
+
+sys.path.insert(1, 'model/')
 from model import analize, upload_models
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.types import CallbackQuery, Message, ContentType

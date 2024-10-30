@@ -25,12 +25,12 @@ def pick_color(img):
     return (round(S_red / n), round(S_green / n), round(S_blue / n))
 
 def upload_models():
-    face1 = "model_files\\opencv_face_detector.pbtxt"
-    face2 = "model_files\\opencv_face_detector_uint8.pb"
-    age1 = "model_files\\age_deploy.prototxt"
-    age2 = "model_files\\age_net.caffemodel"
-    gen1 = "model_files\\gender_deploy.prototxt"
-    gen2 = "model_files\\gender_net.caffemodel"
+    face1 = "model\\model_files\\opencv_face_detector.pbtxt"
+    face2 = "model\\model_files\\opencv_face_detector_uint8.pb"
+    age1 = "model\\model_files\\age_deploy.prototxt"
+    age2 = "model\\model_files\\age_net.caffemodel"
+    gen1 = "model\\model_files\\gender_deploy.prototxt"
+    gen2 = "model\\model_files\\gender_net.caffemodel"
 
     face = cv2.dnn.readNet(face2, face1)
 
