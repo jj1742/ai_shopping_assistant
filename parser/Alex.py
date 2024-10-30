@@ -1,6 +1,6 @@
 import requests
 import bs4
-from model1 import analize
+from model import analize
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import ui
