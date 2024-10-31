@@ -39,5 +39,5 @@
 
 Сначала нужно скачать зип архив и распаковать его. Далее нужно создать виртуальное окружение venv и скачать все библиотеки из requirements.txt. Запуск бота осуществляется запуском файла run.py (python run.py).
 
-[image](https://github.com/user-attachments/assets/f2314754-6f68-420e-8478-893e14342639)
+![image](https://github.com/user-attachments/assets/f2314754-6f68-420e-8478-893e14342639)
     
